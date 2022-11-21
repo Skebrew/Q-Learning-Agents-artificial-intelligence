@@ -1,7 +1,7 @@
 Steven Grossman's home work assignment from the University of Iowa's artificial intelligence class.
 My contributions where in analysis.py, qlearningAgents.py, and valueIterationAgents.py. The rest of the code was provided by Bijaya Adhikari from the University of Iowa. All Q-learning agents use the same Q-Learning code created by Steven Grossman.
 
-In order to run this program, you must have python installed on your system. Also this assumes that you are running windows.
+In order to run this program, you be using windows and have python installed so that you are able to run python from the command line.
 To run:
 1. Download the zipped project file by clicking the green button that says "<> Code" then click "download ZIP"
 2. Unzip the file and then open a command line terminal inside the extracted folder. 
