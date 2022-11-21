@@ -26,8 +26,9 @@ Discount is how highly the agent values immidiat rewards and shouldn't be altere
 To see it quickly learn, first, set the step delay to 0, then turn epsilon all the way to 0.999. Then lower epsilon. The longer you take to lower epsilon, the faster it will be. Next, lower the learning rate down to 0. Finally raise step delay back up to 0.10000 and watch how fast it crawls!
 
 
-The pacman agent will learn to minimize ghost contact and maximize pellets eaten. You can observe the very beginning of his training by running 
-```python pacman.py -p PacmanQAgent -n 10 -l smallGrid -a numTraining=10``` or ```python3 pacman.py -p PacmanQAgent -n 10 -l smallGrid -a numTraining=10```
+The pacman agent will learn to minimize ghost contact and maximize pellets eaten. You can observe the very beginning of his training by running: 
+```python pacman.py -p PacmanQAgent -n 10 -l smallGrid -a numTraining=10``` or   
+```python3 pacman.py -p PacmanQAgent -n 10 -l smallGrid -a numTraining=10```
 
 To see how efficient Pacman becomes at solving the maze, run 
 ```python autograder.py -q q5``` or ```python3 autograder.py -q q5```
