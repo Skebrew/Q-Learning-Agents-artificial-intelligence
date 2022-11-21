@@ -25,7 +25,7 @@ The pacman agent will learn to minimize ghost contact and maximize pellets eaten
 ```python pacman.py -p PacmanQAgent -n 10 -l smallGrid -a numTraining=10``` or ```python3 pacman.py -p PacmanQAgent -n 10 -l smallGrid -a numTraining=10```
 
 To see how efficient Pacman becomes at solving the maze, run 
-```python autograder.py -q q5```
+```python autograder.py -q q5``` or ```python3 autograder.py -q q5```
 
 The console will show pacman's statistics from training 2000 times, then learning will be disabled and Pacman will use its past knowledge to win the smallGrid maze. 
 Pacman's score is based on pellets eaten, how long it takes for him to complete the maze, and whether he wins or loses.
