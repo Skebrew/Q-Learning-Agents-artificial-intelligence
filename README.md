@@ -1,7 +1,12 @@
 Steven Grossman's home work assignment from the University of Iowa's artificial intelligence class.
-My contributions where in analysis.py, qlearningAgents.py, and valueIterationAgents.py. The rest of the code was provided by Bijaya Adhikari from the University of Iowa.
+My contributions where in analysis.py, qlearningAgents.py, and valueIterationAgents.py. The rest of the code was provided by Bijaya Adhikari from the University of Iowa. All Q-learning agents use the same Q-Learning code created by Steven Grossman.
 
-To test these, it is required to have python installed on your system.
+In order to run this program, you must have python installed on your system. Also this assumes that you are running windows.
+To run:
+1. Download the zipped project file by clicking the green button that says "<> Code" then click "download ZIP"
+2. Unzip the file and then open a command line terminal inside the extracted folder. 
+3. Enter any of the commands below to run the agent.
+
 
 The agents created use Q-Learning with Q-tables to learn which action is best under each state. 
 The crawler agent will maximize moving to the right.
@@ -14,7 +19,7 @@ At 0 the agent decides each of its moves and at 1 the agent acts completely rand
 Step Delay is just for the animation. Set it to a really low value if you want it to learn quicker.
 
 Learning rate is the amount of time it takes for the agent to forget one of its past experiences. 
-Set to 0 and it will stop learning, set to 1 and it will completely replace what it has learned with its most recent Q-value.
+Set to 0 and it will stop learning, set to 1 and it will completely replace what it has learned with its most recent experience.
 
 Discount is how highly the agent values immidiat rewards and shouldn't be altered from its default value.
 
